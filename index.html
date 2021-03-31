@@ -1,5 +1,25 @@
-<h1 style="color: red; font-size: 20px;">Woah</h1>
-
-<script>
-    document.title = 'testing titles'
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woaaaaah</title>
+  </head>
+  <body>
+    <h1 style="color: violet; size: 50px; padding: 5em;font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+      Something is coming<span id="dots"></span>
+    </h1>
+    <script>
+      let dotsString = "";
+      setInterval(() => {
+        if (dotsString === "...") {
+          dotsString = "";
+        } else {
+          dotsString += ".";
+        }
+        dots.innerText = dotsString;
+      }, 200);
+    </script>
+  </body>
+</html>
