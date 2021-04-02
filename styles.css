@@ -1,0 +1,10 @@
+.boldtext {
+  font-weight: bolder;
+}
+.brandText {
+  font-size: 2em;
+  font-weight: bolder;
+  color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
