@@ -8,3 +8,13 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.carouselClass {
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .carouselClass {
+    width: 90% !important;
+  }
+}

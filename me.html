@@ -66,7 +66,57 @@
       </nav>
       <div>
         <h1 class="text-center mt-2 mb-0" id="rainbowHeader">Личное</h1>
-        Будет позже... Зашифровано.
+        <div
+          class="d-flex p-4 flex-column align-items-center justify-content-center"
+        >
+          <div class="input-group mb-3 w-75">
+            <span class="input-group-text" id="inputText">Password</span>
+            <input
+              type="text"
+              class="form-control"
+              id="password"
+              aria-describedby="inputText"
+            />
+          </div>
+
+          <div id="message">
+            <!-- My special message here -->
+          </div>
+
+          <div
+            id="carouselControls"
+            class="carousel slide carouselClass"
+            data-bs-ride="carousel"
+          >
+            <div id="carouselInner" class="carousel-inner">
+              <!-- Images here -->
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
       <footer class="fixed-bottom bg-light text-center">
         <div class="text-center p-2">
@@ -75,6 +125,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
     <script src="./code.js" type="text/javascript"></script>
   </body>
 </html>
